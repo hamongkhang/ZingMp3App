@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="none"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@+id/linearlayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <fragment
+            android:name="com.thv.hoangvu.appnhac.Fragment.FragmentBanner"
+            android:id="@+id/fragmentbanner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <fragment
+            android:name="com.thv.hoangvu.appnhac.Fragment.FragmentPlayList"
+            android:id="@+id/fragmentplaylist"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <fragment
+        android:name="com.thv.hoangvu.appnhac.Fragment.FragmentChuDeTheLoaiToday"
+        android:id="@+id/fragmentchudevatheloai"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+        <fragment
+            android:name="com.thv.hoangvu.appnhac.Fragment.FragmentAlbumHot"
+            android:id="@+id/fragmentalbumhot"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <fragment
+            android:name="com.thv.hoangvu.appnhac.Fragment.FragmentBaiHatHot"
+            android:id="@+id/fragmentbaihathot"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+</ScrollView>
